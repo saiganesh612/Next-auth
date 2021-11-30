@@ -31,7 +31,7 @@ function Navbar() {
                             <Link href='/api/auth/signin'>
                                 <a onClick={e => {
                                     e.preventDefault()
-                                    signIn('github')
+                                    signIn()
                                 }}>Sign In</a>
                             </Link>
                         </li>
